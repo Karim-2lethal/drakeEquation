@@ -21,7 +21,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
 
 int N;
-int rstar;
+int rStar;
 double f_p;
 int numberofExoplanets;
 double f_l;
@@ -29,6 +29,10 @@ double f_i;
 double f_c;
 int L;
 
+N = rStar * f_p * numberofExoplanets * f_l * f_i * f_c * L;
+
+System.out.println("The number of intelligent species that are out there \n" +
+        "that can communicate with us is:" + N);
 
 
 
